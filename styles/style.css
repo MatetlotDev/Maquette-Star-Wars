@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+main {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #050447;
+  padding: 9% 12%;
+}
+
+main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .content .infos {
+  color: #fff38a;
+}
+
+main .content .infos h3 {
+  font-size: 4.2vh;
+  margin: 1vh 0;
+}
+
+main .content .infos p {
+  font-size: 2.1vh;
+  max-width: 23vw;
+  line-height: 1.5;
+}
+
+main .content .infos .date {
+  font: 700 26vh serif;
+  margin-top: 4vh;
+}
+
+main .switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2vh;
+}
+
+main .switch img {
+  width: 5vh;
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
+main .switch img:nth-of-type(1) {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+main .switch .dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
+  margin-left: 4vw;
+  position: relative;
+}
+
+main .switch .dots .line {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  height: 3px;
+  background: #fff38a;
+}
+
+main .switch .dots .dot {
+  width: 4vmin;
+  height: 4vmin;
+  border-radius: 50%;
+  background: #fff38a;
+  border: 2px solid #827B68;
+  z-index: 10;
+}
+/*# sourceMappingURL=style.css.map */
