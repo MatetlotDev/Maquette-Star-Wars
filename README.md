@@ -6,4 +6,6 @@ Voici le lien de la maquette en live sur [figma](https://www.figma.com/proto/xai
 
 Et un aperçu de la maquette statique : 
 
+![Alt text](https://res.cloudinary.com/matetlot/image/upload/v1643924432/samples/maquette_ck9sxm.png "template")
+
 Tout commentaire est le bienvenu !
