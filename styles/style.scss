@@ -119,7 +119,7 @@ main {
                 position: relative;
                 height: 100px;
 
-                img{
+                svg{
                     position: absolute;
                     opacity: 0;
                     &:nth-of-type(1){opacity: 1}
